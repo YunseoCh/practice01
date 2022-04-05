@@ -1,0 +1,11 @@
+www
+git bash here
+
+git init
+git status
+git add .
+git status
+git commit -m "project name"
+git push origin master
+
+git hub - practice01 - 원하는 파일
