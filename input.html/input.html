@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        text : <input type="text"> <!--text입력-->
+        <!-- 아무 글자 삽입하는 input -->
+        <br>
+        password : <input type="password"> <!--비번 입력-->
+        <!-- 가려서 나오는 input -->
+        <br>
+        email : <input type="email" required> <!--이메일 입력-->
+        <!-- 이메일 사용하는 인풋, require는 type에 맞춰 검사하는 역할 -->
+        <br>
+        tel : <input type="tel" required> <!--전화번호 넣는 곳-->
+        <br>
+        <input type="submit" value="버튼"> <!--데이터를 전송할 때 쓰는 버튼 만들기-->
+        <br><br>
+
+        <input type="radio" name="1"> <!--버튼 만들기-->
+        <input type="radio" name="1"> <!--name에 이름을 넣어야 하나만 선택이 됨.-->
+        <input type="radio" name="2">
+        <input type="radio" name="2">
+        <!-- name에 따라 하나만 선택할 수 있게 하는 선택요소 -->
+        <br><br>
+        <input type="checkbox" name=""> <!--체크박스 만들기-->
+        <input type="checkbox" name="">
+        <input type="checkbox" name="">
+        <input type="checkbox" name="">
+        <!-- 상관없이 중복선택할 수 있는 요소 -->
+        <br><br>
+        <fieldset style="width: 100px; height: 60px; background: rgb(143, 236, 236);"> <!--너비, 배경색 지정-->
+            <legend>title</legend> <!--칸 안에 제목 삽입-->
+            <br>
+            <input type="text">
+            <br>
+        </fieldset>
+        <!-- fieldset 간단한 구역, 폼을 만들어주는 요소 legend fieldset의 제목을 나타냄 -->
+
+        <input type="time" name="" id=""> <!--시간 선택할 수 있는 요소-->
+
+        <input type="datetime-local" name="datetime" id="datetime"> <!--시간, 날짜 선택할 수 있는 요소-->
+
+        <select>
+            <option value="1">asdf</option> <!--옵션의 갯수만큼 선택창을 만드는 요소-->
+            <option value="1">1234</option>
+            <option value="1">wasd</option>
+            <option value="1">ewsn</option>
+        </select>
+        <!-- 인풋앞에 글씨를 감싸는 요소, label이 있으면 input을 선택하지 않고 label을 선택해도 인식함 -->
+        <label for="">text : </label>
+        <br> <br>
+        <textarea cols="30" rows="10"></textarea> 
+        <!-- 많은 글씨를 적을 수 있는 요소 -->
+        <!--cols = 높이, row = 폭 지정-->
+
+
+    </form>
+    <!-- form으로 input을 감싸 줘야 데이터가 전송이 됨 -->
+</body>
+</html>
