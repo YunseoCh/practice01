@@ -62,5 +62,25 @@
 
     </form>
     <!-- form으로 input을 감싸 줘야 데이터가 전송이 됨 -->
+
+<br><br>
+    <label for="num">숫자 입력 : </label>
+    <input value="https://" type="number" name="num" id="num" placeholder="ex>100">
+    <!-- 
+        label의 for와 input의 id가 같으면 그룹화가 됨
+        placeholder는 예시 글자를 적는 속성
+     -->
+
+     <label for="bar">슬라이드바 : </label>
+     <input type="range" name="bar" id="bar" max="10" min="0" step="2">
+     <!-- 
+         말 그대로 슬라이드바
+         max, min으로 최대 최소를 정해줄 수 있고, 
+         step으로 간격을 정해 늘어나는 값을 지정 가능
+      -->
+      <!-- 
+          이외에도 input은 많음 아래 사이트 보고 참고!
+        https://www.tcpschool.com/html-input-types/intro
+       -->
 </body>
 </html>
