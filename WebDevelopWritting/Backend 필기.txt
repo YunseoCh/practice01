@@ -1,0 +1,27 @@
+Backend 필기
+사이트 : “roadmap.sh”
+유튜브 : 생활코딩 - http
+현대모비스알고리즘경진대회-구름ide(입상 시 서류면제)
+Frontend: 사이트 개발
+internet : WordWideWep
+WIFI: 내부 네트워크
+DNS : M(내가 원하는 서버)->NAVER->com->DNS(ask)->공인ip　
+HTNL, CSS,JAVAscripte
+
+backend : 정보전달. 가장 많이 알고 있어야 함(프론트엔드, 데브옵스의 언어들도 알아야함)
+Internet
+Basic Frontend Knowledge
+OS and General Knowledge
+Language
+Version Control System, git
+Relational Databases 
+.
+.
+.
+Design and Development Principles까지 다 알아야함
+00
+
+DevOps : 사이트를 올려줌(리눅스) 
+
+명령어
+ns lookup 네이밍 //dns

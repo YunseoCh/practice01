@@ -1,7 +1,7 @@
 www
 git bash here
 
-git init
+git init //폴더 바꿀때
 git status
 git add .
 git status
